@@ -23,7 +23,7 @@ See [Managing Notification Channels](https://docs.newrelic.com/docs/alerts/new-r
 Clone this repository and run the following scripts:
 
 ```bash
-git clone https://github.com/newrelic/nr1-neon-nerdpack.git
+nr1 nerdpack:clone -r https://github.com/newrelic/nr1-neon-nerdpack.git
 cd nr1-neon-nerdpack
 nr1 nerdpack:uuid -gf
 npm install
